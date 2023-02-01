@@ -1,5 +1,11 @@
 <?php $title = "Contact us";
  include "header.php" ?>
+<div class="main">
+    <div class="txtblock">
+
+
+
+
 
 <h1> Some content </h1>
 
@@ -13,7 +19,7 @@
 </p>
 
 
-
-
+    </div>
+</div>
 
 <?php include "footer.php" ?>

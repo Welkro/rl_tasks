@@ -1,5 +1,6 @@
 <?php include "header.php"; ?>
-
+<div class="main">
+    <div class="txtblock">
 <h1> 3.1 Write a simple PHP script to print your information (Name and your groupID).</h1>
 
     <?php
@@ -49,6 +50,6 @@
 
 <h1> 4. Screenshot of the development environment </h1>
 <img src="proof.jpg" alt="image">
-
-
+    </div>
+</div>
 <?php include "footer.php"; ?>

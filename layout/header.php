@@ -1,47 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title> <?php echo $title ?> </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
-<style>
-  a, .nav-link,.navbar-brand {
-    color: white;
-}
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranga&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Roy Liu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="ex1.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="footer.php">Footer</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<div class="grid-container">
+
+    <div class="header">
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="contactus.php" class="button vcenter">Contact us</a></div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="aboutus.php" class="button vcenter">About us</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="#" class="button vcenter">Something</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="ex1.php" class="button vcenter">Exercise 1</a> </div>
+        <div style="flex-grow: 5;"></div>
+        <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
+        <div style="flex-grow: 2;"> <a href="index.php"><img style="width: 40px; padding: 5px;" class="vcenter" src="images/logo.png" alt="logo"></a></div> 
     </div>
-  </div>
-</nav>
