@@ -19,10 +19,11 @@
 
     <div class="header">
         <div style="flex-grow: 3; vertical-align: middle; "><a href="contactus.php" class="button vcenter">Contact us</a></div>
-        <div style="flex-grow: 3; vertical-align: middle; "><a href="aboutus.php" class="button vcenter">About us</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="variable.php" class="button vcenter">Exercise 3</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="index.php" class="button vcenter">Exercise 2</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="ex1.php" class="button vcenter">Exercise 1</a> </div>
         <div style="flex-grow: 5;"></div>
         <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
         <div style="flex-grow: 2;"> <a href="index.php"><img style="width: 40px; padding: 5px;" class="vcenter" src="images/logo.png" alt="logo"></a></div> 
     </div>
+    <div class="main">
