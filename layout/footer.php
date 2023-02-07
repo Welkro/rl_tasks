@@ -1,20 +1,21 @@
 </div>
 <div class="footer">
     
-    <div style="flex-grow: 24;">
-        <h2>
-            <p2 style="color:#fff;" >&copy; Roy Liu 2023
+    <div style="flex-grow: 4;">
+        <h3>
+            <p1 style="color:#fff;" >&copy; Roy Liu 2023
             <?php
             echo "<br> Last modified on: " . date("F d Y H:i:s.", getlastmod());
             ?>
-            </p2>
-        </h2>
+            </p1>
+        </h3>
     
     </div>
     <div style="flex-grow: 24;">
         <h2><p2 style="color:#fff; padding: 0;" >This is a half pizzeria </p2>
     <p3 style="color: #950740; padding: 0 ;">and half burgeria</p3></h2>
     </div>
+    
     <div class="break"></div>
     
     <div style="flex-grow: 1;"><img style="width: 35%; border-radius: 0px;" src="images/youtube.jpg" alt="youtube"></div>
