@@ -20,7 +20,7 @@
     <div class="header">
         <div style="flex-grow: 3; vertical-align: middle; "><a href="contactus.php" class="button vcenter">Contact us</a></div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="aboutus.php" class="button vcenter">About us</a> </div>
-        <div style="flex-grow: 3; vertical-align: middle; "><a href="#" class="button vcenter">Something</a> </div>
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="index.php" class="button vcenter">Exercise 2</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="ex1.php" class="button vcenter">Exercise 1</a> </div>
         <div style="flex-grow: 5;"></div>
         <div class="visible" style="flex-grow: 1;"><p>Pizz</p><p1>urgeR</p1></div> 
