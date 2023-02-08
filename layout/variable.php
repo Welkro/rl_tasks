@@ -20,9 +20,13 @@
         </div>
     </div>
         <div class="row">
+            <div class="col">
             Date: <input type="date" name="bdate" required> <br>
+            </div> 
+            <div class="col">
             Select favourite colour: <input type="color" name="color" required> <br>
-            <input type="submit" value="Submit">        
+            <input type="submit" value="Submit">    
+            </div> 
         </div>
 </form>
 
