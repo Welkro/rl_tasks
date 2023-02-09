@@ -18,6 +18,7 @@
 <div class="grid-container">
 
     <div class="header">
+        <div style="flex-grow: 3; vertical-align: middle; "><a href="array.php" class="button vcenter">Exercise 5</a></div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="controlflow.php" class="button vcenter">Exercise 4</a></div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="variable.php" class="button vcenter">Exercise 3</a> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><a href="index.php" class="button vcenter">Exercise 2</a> </div>
