@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 <div class = "txtblock">
 
-<h2> 1. Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:
+<hr><h2> 1. Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:
 It's August, so it's still holiday.
 Not August, this is Month-name so I don't have any holidays </h2>
 
@@ -17,7 +17,7 @@ else {
 }
 ?>
 
-<h2> 2. Assign colour red to a variable name $color and check to print one the following responses (if else statement) </h2>
+<hr><h2> 2. Assign colour red to a variable name $color and check to print one the following responses (if else statement) </h2>
 
 <?php
 $color = "red";
@@ -30,7 +30,7 @@ else {
 }
 ?>
 
-<h2> Write a program to grade students based on their total score for a subject. Use variable to hold the total score </h2>
+<hr><h2> 3. Write a program to grade students based on their total score for a subject. Use variable to hold the total score </h2>
 
 <?php
 $grade = 70;
@@ -48,7 +48,7 @@ if ($grade >= 80){
 }
 ?>
 
-<h2> Write a program to get inputs (age and name) from the user and based on their age <h2>
+<hr><h2> 4. Write a program to get inputs (age and name) from the user and based on their age <h2>
     
 <form action="vote.php" method="post">
     <input type="txt" name="name" required placeholder="Name" class="form-control" required>
@@ -58,7 +58,7 @@ if ($grade >= 80){
 
 
 
-<h2> 5.Use Switch statement with strops function to print the name of the browser as below: 
+<hr><h2> 5.Use Switch statement with strops function to print the name of the browser as below: 
 If someone is using Chrome it should print, you are using Google Chrome… </h2>
 
 <?php

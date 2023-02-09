@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 <div class = "txtblock">
 
-<h3> Exercise 3. In-class Task Variable & Operators (variable.php)</h3>
+<hr><h3> Exercise 3. In-class Task Variable & Operators (variable.php)</h3>
 
 <h2>
     1. Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using 
@@ -30,7 +30,7 @@
         </div>
 </form>
 
-<h2> 2. Bootstrap style table </h2>
+<hr><h2> 2. Bootstrap style table </h2>
 
 <table class="table table-bordered table-dark">
   <thead>
@@ -63,7 +63,7 @@
   </tbody>
 </table>
 
-<h2> 4. Write a PHP script with two string variables </h2>
+<hr><h2> 4. Write a PHP script with two string variables </h2>
 
 <?php
 $name = "Roy";
@@ -73,7 +73,7 @@ echo "<br> The length of " . $country . " is " . strlen($country);
 ?>
 <h2>
 
-<h2> 5. Write a script to add up the numbers: 298, 234, 46 </h2>
+<hr><h2> 5. Write a script to add up the numbers: 298, 234, 46 </h2>
 <?php
 $a = 298;
 $b = 234;
@@ -81,14 +81,14 @@ $c = 46;
 echo $a + $b + $c;
 ?>
 
-<h2> 6. Write a PHP script to detect the browser being used to view your pages </h2>
+<hr><h2> 6. Write a PHP script to detect the browser being used to view your pages </h2>
 
 <?php
 $host = $_SERVER['HTTP_USER_AGENT'];
 echo $host;
 ?>
 
-<h2> 7. Write a PHP script in the footer section of your universal footer </h2>
+<hr><h2> 7. Write a PHP script in the footer section of your universal footer </h2>
 
 
 </div>
