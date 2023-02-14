@@ -23,7 +23,7 @@ if (isset($_POST['submit'])){
     $city = $_POST['city'];
     $groupid = $_POST['groupid'];
     include "db.php";
-    $sql = "insert into studentinfo (fname, lname, city, groupid)
+    $sql = "insert into pupilinfo (fname, lname, city, groupid)
     values('$fname', '$lname', '$city', '$groupid')";
 
     if ($connection ->query($sql) === TRUE){
