@@ -3,8 +3,8 @@ include '../layout/header.php';
 ?>
 
 <div class = "txtblock">
-    <form method="post" action="">
-        <input type="text" name="fname" placeholder="First Name" required>
+    <form method="post" action="" onsubmit="return crud()" name="form1">
+        <input type="text" name="fname" placeholder="First Name" required onblur="fname()">
         <input type="text" name="lname" placeholder="Last Name" required>
         <input type="text" name="city" placeholder="city" required>
             <select name="groupid">
